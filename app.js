@@ -1,7 +1,7 @@
 /*eslint-env node*/
 
 //------------------------------------------------------------------------------
-// hello world app is based on node.js starter application for Bluemix
+// hello world app is based on node.js starter application for Bluemix 
 //------------------------------------------------------------------------------
 
 // This application uses express as its web server
@@ -18,7 +18,7 @@ var app = express();
 // serve the files out of ./public as our main files
 app.use(express.static(__dirname + '/public'));
 
-// get the app environment from Cloud Foundry
+// get the app environment from Cloud Foundry //
 var appEnv = cfenv.getAppEnv();
 
 // start server on the specified port and binding host
